@@ -1,3 +1,5 @@
-In 2006, I set out to learn Python. This was the outcome of my first project, inspired by the todo.txt project dominant on LifeHacker. I learned a lot about Python, and have never done anything as large since. :) I have no idea if this will even still work in Python 3 or other newer Python versions. But I'm making this available for anyone looking for a Python based GTD-task maanger.
+In 2006, I set out to learn Python. This was the outcome of my first project, inspired by the todo.txt project dominant on LifeHacker. I learned a lot about Python, and have never done anything as large in Python since. :) I have no idea if this will even still work in Python 3 or other newer Python versions. But I'm making this available for anyone looking for a Python based GTD-task maanger.
 
 Everything is stored in a sqlite repository called gtd.sqli. Create it by running the sql commands in the gtd schema file. 
+
+Copyright (c) 2006, AJ Bourg. Released under the GPL 3.
