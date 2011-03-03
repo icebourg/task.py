@@ -1,0 +1,7 @@
+CREATE TABLE contexts ( id INTEGER NOT NULL PRIMARY KEY, description TEXT UNIQUE)
+CREATE TABLE projects ( id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, description TEXT, dateadded DEFAULT CURRENT_TIMESTAMP, datecomplete DEFAULT NULL)
+CREATE TABLE actions ( id INTEGER PRIMARY KEY, description TEXT, dateadd DEFAULT CURRENT_TIMESTAMP, datecomplete DEFAULT NULL )
+CREATE TABLE projectactionmap ( projectid INTEGER, actionid INTEGER)
+CREATE TABLE contextactionmap ( contextid INTEGER, actionid INTEGER )
+CREATE TABLE somedays ( id INTEGER PRIMARY KEY, description TEXT, dateadd DEFAULT CURRENT_TIMESTAMP, datecomplete DEFAULT NULL)
+CREATE TABLE contextsomedaymap ( contextid INTEGER, somedayid INTEGER )
